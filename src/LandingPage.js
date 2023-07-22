@@ -1,5 +1,5 @@
 import React from 'react';
-import './LandingPage.css'; // Assuming you have a CSS file for styling
+import './LandingPage.css';
 
 const LandingPage = () => {
   return (
@@ -9,18 +9,17 @@ const LandingPage = () => {
         <div className="logo">
           <img src="images/c_logo.png" alt="Company Logo" />
         </div>
-        <nav className="navbar">
-        <div className="search-bar">
-          <input type="text" placeholder="Search" />
-          <button className="search-btn">Search</button>
+        <div className="search-login">
+            <div className="login-container">
+            <a href="/login">
+                <img src="images/login.png" alt="Login" className="login-icon" />
+            </a>
+            </div>
+            <div className="search-bar">
+                <input type="text" placeholder="Type here..." />
+                <button className="search-btn">Search</button>
+            </div>
         </div>
-      </nav>
-        <div className="login-container">
-          <a href="/login">
-            <img src="images/login.png" alt="Login" className="login-icon" />
-          </a>
-        </div>
-        
       </header>
 
       {/* Second Row */}
@@ -80,34 +79,34 @@ const LandingPage = () => {
               <div className="sub-card">
                 <img src="images/popular/pp_1.jpeg" alt="PPopular 1" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <div className="sub-card-img">
                     <img src="images/popular/pp_2.jpg" alt="Popular 2" className="sub-card-img" />
                 </div>
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/popular/pp_3.jpg" alt="Popular 3" className="sub-card-img"/>
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/popular/pp_4.jpg" alt="Popular 4" className="sub-card-img"/>
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/popular/pp_5.jpeg" alt="Popular 5" className="sub-card-img"/>
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               {/* Add more sub-cards */}
             </div>
@@ -125,32 +124,32 @@ const LandingPage = () => {
               <div className="sub-card">
                 <img src="images/bodyparts/bd_1.jpg" alt="body parts 1" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/bodyparts/bd_2.jpg" alt="body parts 2" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/bodyparts/bd_3.jpeg" alt="body parts 3" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/bodyparts/bd_4.jpg" alt="body parts 4" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/bodyparts/bd_5.jpeg" alt="body parts 5" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               {/* Add more sub-cards */}
             </div>
@@ -168,32 +167,32 @@ const LandingPage = () => {
               <div className="sub-card">
                 <img src="images/electrical/el_1.jpeg" alt="electrical 1" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/electrical/el_2.jpeg" alt="electrical 2" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/electrical/el_3.jpeg" alt="electrical 3" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/electrical/el_4.jpg" alt="electrical 4" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/electrical/el_5.jpeg" alt="electrical 5" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               {/* Add more sub-cards */}
             </div>
@@ -211,31 +210,31 @@ const LandingPage = () => {
               <div className="sub-card">
                 <img src="images/mechanical/mc_1.jpeg" alt="mechanical 1" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p></div>
               <div className="sub-card">
                 <img src="images/mechanical/mc_2.jpg" alt="mechanical 2" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/mechanical/mc_3.jpeg" alt="mechanical 3" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/mechanical/mc_4.jpeg" alt="mechanical 4" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/mechanical/mc_5.jpeg" alt="mechanical 5" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               {/* Add more sub-cards */}
             </div>
@@ -253,32 +252,32 @@ const LandingPage = () => {
               <div className="sub-card">
                 <img src="images/other/ot_1.jpeg" alt="other 1" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/other/ot_2.jpeg" alt="other 2" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/other/ot_3.jpeg" alt="other 3" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/other/ot_4.jpeg" alt="other 4" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding.</p>
               </div>
               <div className="sub-card">
                 <img src="images/other/ot_5.jpg" alt="other 5" className="sub-card-img" />
                 <h3>Product 1</h3>
-                <p>Price: $19.99</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Rs. 25000. 00</p>
+                <p>Description: This is a brief description on the item to get some understanding..</p>
               </div>
               {/* Add more sub-cards */}
             </div>
