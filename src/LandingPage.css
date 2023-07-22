@@ -1,0 +1,351 @@
+/* LandingPage.css */
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background color */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #ffffff; /* Light background color */
+    padding: 10px; /* Add some padding for better separation */
+  }
+  
+  .logo img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .sign-in button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sign-in button:hover {
+    background-color: #444;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* Horizontal navigation bar */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex; /* Display navigation items side by side */
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar li:hover {
+    text-decoration: underline;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type='text'] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background-color: #444;
+  }
+  
+  .main-content {
+    display: flex;
+    width: 75%;
+    /* Use flex to keep the filter-column and cards-section side-by-side */
+  }
+  
+  .filter-column {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .filter-item {
+    margin-bottom: 15px; /* Add some space between filter options */
+  }
+  
+  .apply-filter-btn {
+    margin-top: 10px; /* Add space below the filters */
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-filter-btn:hover {
+    background-color: #444;
+  }
+  
+  .cards-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Add space between filters and cards */
+  }
+  
+  .card-category {
+    flex: 1;
+    background-color: #ffffff; /* Light background color */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .card-category h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .sub-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .sub-card {
+    flex: 1;
+    background-color: #f9f9f9; /* Light background color */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .sub-card:last-child {
+    margin-right: 0;
+  }
+
+  .sub-card-img {
+    height: 170px;
+    width: 170px;
+  }
+  
+  .footer {
+    margin-top: 50px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    background-color: #ffffff; /* Light background color */
+  }
+  
+  .categories-section {
+    flex: 3;
+    margin-top: 20px;
+  }
+  
+  .category {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .category h2 {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .sub-cards {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling for sub-cards */
+  }
+  
+  .sub-card {
+    flex: 0 0 calc(20% - 10px); /* Display only four sub-cards per row with 10px margin */
+    background-color: #ffffff; /* Light background color */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .sub-card:last-child {
+    margin-right: 0;
+  }
+  
+  .arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .arrow span {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+
+  .footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer h3 {
+    color: #333;
+  }
+  
+  .footer p {
+    color: #777;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer ul li a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    color: #000;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    color: #555;
+    font-size: 24px;
+    margin: 0 5px;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust layout for small screens (e.g., mobile devices) */
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo img {
+      margin-bottom: 10px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .search-bar {
+      margin-top: 10px;
+    }
+  
+    .filter-column {
+      margin-top: 20px;
+      padding-right: 0;
+    }
+  
+    .filter-item {
+      margin-bottom: 10px;
+    }
+  
+    .apply-filter-btn {
+      margin-top: 10px;
+    }
+  
+    .categories-section {
+      margin-top: 10px;
+    }
+  
+    .category {
+      padding: 15px;
+    }
+  
+    .sub-cards {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+    }
+  
+    .sub-card {
+      flex: 0 0 calc(50% - 10px);
+      margin-right: 10px;
+    }
+  
+    .arrow {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Further adjust layout for smaller screens (e.g., smaller mobile devices) */
+    .sub-card {
+      flex: 0 0 100%;
+      margin-right: 0;
+    }
+  
+    .sub-cards {
+      flex-wrap: wrap;
+    }
+  
+    .category {
+      margin-bottom: 20px;
+    }
+  }
