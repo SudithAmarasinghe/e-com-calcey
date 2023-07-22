@@ -9,9 +9,18 @@ const LandingPage = () => {
         <div className="logo">
           <img src="images/c_logo.png" alt="Company Logo" />
         </div>
-        <div className="sign-in">
-          <button className="signin-btn">Sign In</button>
+        <nav className="navbar">
+        <div className="search-bar">
+          <input type="text" placeholder="Search" />
+          <button className="search-btn">Search</button>
         </div>
+      </nav>
+        <div className="login-container">
+          <a href="/login">
+            <img src="images/login.png" alt="Login" className="login-icon" />
+          </a>
+        </div>
+        
       </header>
 
       {/* Second Row */}
@@ -19,6 +28,7 @@ const LandingPage = () => {
         <ul>
           <li>Home</li>
           <li>Products</li>
+          <li>Promotions</li>
           <li>About</li>
           <li>Contact</li>
         </ul>
@@ -285,8 +295,8 @@ const LandingPage = () => {
         <div className="footer-content">
           <div className="footer-column">
             <h3>Contact Us</h3>
-            <p>Email: contact@example.com</p>
-            <p>Phone: +1 (123) 456-7890</p>
+            <p>Email: contact@abc.com</p>
+            <p>Phone: +94 (11) 456-7890</p>
           </div>
           <div className="footer-column">
             <h3>Useful Links</h3>
@@ -294,26 +304,29 @@ const LandingPage = () => {
               <li><a href="/">Home</a></li>
               <li><a href="/about">About</a></li>
               <li><a href="/products">Products</a></li>
+              <li><a href="/promotions">Promotions</a></li>
               <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
           <div className="footer-column">
             <h3>Follow Us</h3>
             <div className="social-icons">
-              <a href="https://www.facebook.com/lrs" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-facebook"></i>
-              </a>
-              <a href="https://www.twitter.com/lrs" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-twitter"></i>
-              </a>
-              <a href="https://www.instagram.com/lrs" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-instagram"></i>
-              </a>
+              <ul>
+                <li>
+                    <a href="wwww.facebook.com/abc"> <img src="images/social/fb.png" alt="fb icon" className="social-img"/></a>
+                </li>
+                <li>
+                    <a href="wwww.instergram.com/abc"> <img src="images/social/ins.jpeg" alt="insta icon" className="social-img"/></a>
+                </li>
+                <li>
+                    <a href="wwww.tweeter.com/abc"> <img src="images/social/twit.png" alt="tweet icon" className="social-img"/></a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} LRS online. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ABC online. All rights reserved.</p>
         </div>
       </footer>
     </div>
