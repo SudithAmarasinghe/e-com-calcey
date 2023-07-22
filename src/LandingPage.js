@@ -64,8 +64,8 @@ const LandingPage = () => {
           <div className="filter-item">
             <label>Price Range:</label>
             <div className="price-range">
-              <input type="range" min="0" max="1000" step="10" />
-              <input type="range" min="0" max="1000" step="10" />
+                <input type="text" id="min-price" placeholder="Min price" />
+                <input type="text" id="max-price" placeholder="Max price" />
             </div>
           </div>
           <button className="apply-filter-btn">Apply Filters</button>
